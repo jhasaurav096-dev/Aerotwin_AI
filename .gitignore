@@ -1,0 +1,13 @@
+# Local Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Generated ML artifacts are recreated by the deployment build
+python_ml/artifacts/*.joblib
+python_ml/artifacts/*.csv
+
+# macOS / local C++ build output
+.DS_Store
+cpp_engine/telemetry_parser
+cpp_engine/telemetry_parser.dSYM/
